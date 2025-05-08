@@ -66,7 +66,7 @@
                        alt="280px.png">
                 </c:when>
                 <c:otherwise>
-                  <img width="38" src="${pageContext.request.contextPath}/image/${product.imageName}"
+                  <img width="38" src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${product.imageName}"
                        alt="${product.imageName}">
                 </c:otherwise>
               </c:choose>

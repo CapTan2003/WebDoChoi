@@ -56,7 +56,7 @@
                             <c:otherwise>
                               <img width="80"
                                    height="80"
-                                   src="${pageContext.request.contextPath}/image/${wishlistItem.product.imageName}"
+                                   src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${wishlistItem.product.imageName}"
                                    alt="${wishlistItem.product.imageName}">
                             </c:otherwise>
                           </c:choose>

@@ -104,7 +104,7 @@
                               <c:otherwise>
                                 <img width="80"
                                      height="80"
-                                     src="${pageContext.request.contextPath}/image/${orderItem.product.imageName}"
+                                     src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${orderItem.product.imageName}"
                                      alt="${orderItem.product.imageName}">
                               </c:otherwise>
                             </c:choose>

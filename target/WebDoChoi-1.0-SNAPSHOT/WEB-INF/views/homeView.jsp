@@ -32,7 +32,7 @@
                           <img width="50" height="50" src="${pageContext.request.contextPath}/img/50px.png" alt="50px.png">
                         </c:when>
                         <c:otherwise>
-                          <img width="50" height="50" src="${pageContext.request.contextPath}/image/${category.imageName}" alt="${category.imageName}">
+                          <img width="50" height="50" src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${category.imageName}" alt="${category.imageName}">
                         </c:otherwise>
                       </c:choose>
                       <span class="category-title ms-3">${category.name}</span>
@@ -60,7 +60,7 @@
                       <img width="200" height="200" class="img-fluid" src="${pageContext.request.contextPath}/img/280px.png" alt="280px.png">
                     </c:when>
                     <c:otherwise>
-                      <img width="200" height="200" class="img-fluid" src="${pageContext.request.contextPath}/image/${product.imageName}" alt="${product.imageName}">
+                      <img width="200" height="200" class="img-fluid" src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${product.imageName}" alt="${product.imageName}">
                     </c:otherwise>
                   </c:choose>
                 </a>

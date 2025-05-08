@@ -267,7 +267,7 @@
             <c:when test="${not empty requestScope.product.imageName}">
               <img width="200"
                    class="img-thumbnail mb-3"
-                   src="${pageContext.request.contextPath}/image/${requestScope.product.imageName}"
+                   src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${requestScope.product.imageName}"
                    alt="${requestScope.product.imageName}"
                    title="${requestScope.product.imageName}">
               <div class="mb-3 form-check">

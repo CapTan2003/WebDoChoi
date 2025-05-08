@@ -43,7 +43,7 @@
                      alt="50px.png">
               </c:when>
               <c:otherwise>
-                <img width="50" src="${pageContext.request.contextPath}/image/${requestScope.category.imageName}"
+                <img width="50" src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${requestScope.category.imageName}"
                      alt="${requestScope.category.imageName}">
               </c:otherwise>
             </c:choose>

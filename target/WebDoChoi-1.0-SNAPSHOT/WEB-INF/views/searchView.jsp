@@ -38,7 +38,7 @@
                   <img width="200"
                        height="200"
                        class="img-fluid"
-                       src="${pageContext.request.contextPath}/image/${product.imageName}"
+                       src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${product.imageName}"
                        alt="${product.imageName}">
                 </c:otherwise>
               </c:choose>

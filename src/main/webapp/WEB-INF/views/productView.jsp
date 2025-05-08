@@ -50,7 +50,7 @@
             <img width="280"
                  height="280"
                  class="img-fluid"
-                 src="${pageContext.request.contextPath}/image/${requestScope.product.imageName}"
+                 src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${requestScope.product.imageName}"
                  alt="${requestScope.product.imageName}">
           </c:otherwise>
         </c:choose>
@@ -345,7 +345,7 @@
                   <img width="200"
                        height="200"
                        class="img-fluid"
-                       src="${pageContext.request.contextPath}/image/${relatedProduct.imageName}"
+                       src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${relatedProduct.imageName}"
                        alt="${relatedProduct.imageName}">
                 </c:otherwise>
               </c:choose>

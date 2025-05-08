@@ -93,7 +93,7 @@
               <c:otherwise>
                 <img width="280"
                      class="img-thumbnail"
-                     src="${pageContext.request.contextPath}/image/${requestScope.product.imageName}"
+                     src="https://s3webdochoinhom10demo.s3.ap-southeast-1.amazonaws.com/images/${requestScope.product.imageName}"
                      alt="${requestScope.product.imageName}">
               </c:otherwise>
             </c:choose>
